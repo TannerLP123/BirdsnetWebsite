@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+#title {
+	text-align: center;
+}
+.HoursOfOp {
+    border: dotted #000000;
+	margin-right: 850px;
+	margin-left: 50px;
+	text-align: center;
+	border-radius: 25px;
+	padding: 10px;
+}
+#HOP {
+	font-size: 18px;
+	text-decoration-line: underline;
+}
