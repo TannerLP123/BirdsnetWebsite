@@ -1,8 +1,27 @@
 @charset "UTF-8";
 
+body{
+	background-color: grey;
+}
+
 #title {
 	text-align: center;
 }
+
+#location {
+	text-align: center;
+}
+
+/*This will be a button in JS*/
+#menu {
+	text-align: center;
+}
+
+.Menu {
+	border: medium #000000;
+	border-radius: 15px;
+}
+
 .HoursOfOp {
     border: dotted #000000;
 	margin-right: 850px;
@@ -11,12 +30,29 @@
 	border-radius: 25px;
 	padding: 10px;
 }
+
 #HOP {
 	font-size: 18px;
 	text-decoration-line: underline;
 }
+
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
+}
+
+.Location {
+	text-align: right;
+	margin-right: 50px;
+	border: dotted;
+	padding: 10px;
+	margin-left: 850px;
+	padding-right: 5px;
+	border-radius: 25px;
+}
+
+#HoO {
+	font-size: 18px;
+	text-decoration-line: underline;
+}
