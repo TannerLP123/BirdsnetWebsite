@@ -1,26 +1,45 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Birdsnest Website</title>
-		<link href="BirdsnestCSS.css" rel="stylesheet" type="text/css">
-	</head>
-
+<head>
+	<meta charset="UTF-8" name = "viewport" content = "width = device-width, initial-scale = 1">
+	<title>Birdsnest Website</title>
+	<link href="BirdsnestCSS.css" rel="stylesheet" type="text/css">
+</head>
+<div id = "wrapper">
 	<body>
-		<img src = "images/fullowl.jpg" width="200" height="150" class="center">
-		<section class="HoursOfOp"> <h2 id = "HOP">Hours of operation:</h2> <br>
-		Monday-Thursday <br> 11am-11pm <br> Friday-Saturday <br> 11am-12pm <br><br> *Kitchen Hours* <br> Monday-Saturday <br>11am-10pm</section>
-
-		<section class = "Menu">
-			<h4 id = "menu">
-				<a href="#">View our menu!</a>
-			</h4>
-		</section>
 	
-		<section class = "Location">
-			<h3 id = "location">Find us at: <br>
-				<a href = "https://www.google.com/maps/place/Birds+Nest/@34.195844,-79.7680573,17z/data=!3m1!4b1!4m5!3m4!1s0x8855673b98f35857:0x1e60b4852b5c1550!8m2!3d34.1958429!4d-79.7658937" target = "_blank" rel = "noopener noreferrer">166 S. Dargan St.<br> Florence, SC 29506</a>
-			</h3>	
-		</section>
+	<div class = "franchising">
+		<span id = "Title" >B <b>irdsnes</b> T</span>
+			<h2 id = "Slogan">Eats and Ales</h2>
+	</div>
+	
+	<div class = "tab">
+		<button class = "tabLink" onclick = "openTab(event, 'About')">About Us</button>
+		<button class = "tabLink" onclick = "openTab(event, 'Menu')">From the Kitchen</button>
+		<button class = "tabLink" onclick = "openTab(event, 'Bar')">Behind the Bar</button>
+	</div>
+	
+	<div class= "tabcontent" id = "About">
+		<div id = "HoursOfOp">
+			<h2 id = "HoO">Hours of operation:</h2> <br>
+			Monday-Thursday <br> 11am-11pm <br> Friday-Saturday <br> 11am-12pm <br><br> *Kitchen Hours* <br> Monday-Saturday <br>11am-10pm
+		</div>
+
+
+		<div id = "Location">
+			<h3 id = "location">Find us at:</h3>
+				<a href = "https://www.google.com/maps/place/Birds+Nest/@34.195844,-79.7680573,17z/data=!3m1!4b1!4m5!3m4!1s0x8855673b98f35857:0x1e60b4852b5c1550!8m2!3d34.1958429!4d-79.7658937">166 S. Dargan St.<br> Florence, SC 29506</a>
+		</div>	
+	</div>
+	
+	<div class = "tabcontent" id = "KitchenMenu">
+	
+	</div>
+	
+	<div class = "tabcontent" id = "BarMenu">
+	
+	</div>
+		
 	</body>
+</div>
 </html>
