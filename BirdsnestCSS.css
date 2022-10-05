@@ -127,3 +127,7 @@ body {
 	border: 1px solid gray;
 	border-top: none;
 }
+
+h1 {
+	text-align: center;
+}
