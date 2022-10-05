@@ -1,13 +1,25 @@
 <!doctype html>
 <html>
 	<head>
-		<meta charset="UTF-8">
-		<title>BirdsNest Menu</title>
-		<link href="BirdsnestCSS.css" rel="stylesheet" type="text/css">
-	</head>
-    <body>
-        <h1>
-            Full Menu
-        </h1>
-    </body>
+        <meta charset="UTF-8" name = "viewport" content = "width = device-width, initial-scale = 1">
+        <title>Birdsnest Website</title>
+        <link href="BirdsnestCSS.css" rel="stylesheet" type="text/css">
+    </head>
+    <div id = "wrapper">
+        <body>
+        
+        <div class = "franchising">
+            <span id = "Title" >B <b>irdsnes</b> T</span>
+                <h2 id = "Slogan">Eats and Ales</h2>
+        </div>
+        
+        <div class = "tab">
+            <button class = "tabLink" onclick = "openTab(event, 'About')">About Us</button>
+            <button class = "tabLink" onclick = "openTab(event, 'Menu')">From the Kitchen</button>
+            <button class = "tabLink" onclick = "openTab(event, 'Bar')">Behind the Bar</button>
+        </div>
+
+        <div>
+            <span id = "Title">Menu</span>
+        </div>
 </html>
