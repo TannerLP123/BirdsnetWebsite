@@ -60,7 +60,7 @@ body {
 	min-width: 15%;
 	min-height: fit-content;
 	margin-top: 30px;
-	font-size: 18px;
+	font-size: 20px;
 }
 
 #Location {
@@ -91,7 +91,7 @@ body {
 	border: 1px solid #ccc;
 	background-color: grey;
 	text-align: center;
-	width: 900px;
+	width: 1050px;
 	border-radius: 5px;
 	margin-left: auto;
 	margin-right: auto;
