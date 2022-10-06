@@ -3,7 +3,7 @@
 #wrapper {
 	margin-left: auto;
 	margin-right: auto;
-	width: 1000px;
+	width: 960px;
 	height: 1000px;
 }
 
@@ -14,7 +14,7 @@ body {
 .franchising {
 	background-color: black;
 	border-radius: 5%;
-	max-width: 350px;
+	max-width: 320px;
 	margin-left: auto;
 	margin-right: auto;
 	border: 1px solid white;
@@ -26,7 +26,7 @@ body {
 	display: flex;
 	justify-content: center;
 	padding-top: 10px;
-	font-size: 56px;
+	font-size: 62px;
 }
 
 #Title b {
@@ -45,11 +45,11 @@ body {
 #location {
 	text-align: center;
 	text-decoration-line: underline;
-	font-size: 22px;
+	font-size: 26px;
 }
 
 #HoursOfOp {
-    border: dotted #000000;
+    border: 2px solid;
 	float: left;
 	text-align: center;
 	border-radius: 25px;
@@ -65,10 +65,10 @@ body {
 
 #Location {
 	text-align: center;
-	border: dotted;
+	border: 2px solid;
 	float: right;
-	padding: 10px;
-	padding-bottom: 30px;
+	padding-right: 10px;
+	padding-bottom: 40px;
 	padding-left: 12px;
 	border-radius: 25px;
 	max-width: fit-content;
@@ -88,13 +88,13 @@ body {
 }
 
 .tab {
-	border: 1px solid #ccc;
 	background-color: grey;
 	text-align: center;
-	width: 1050px;
-	border-radius: 5px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 5px;
+	border-bottom: 2px solid;
+	border-top: 2px solid;
 }
 
 .tab button {
@@ -102,21 +102,20 @@ body {
 	border: none;
 	outline: none;
 	cursor: pointer;
-	padding: 20px 75px;
+	padding: 20px 80px;
 	transition: .3s;
 	font-weight: bold;
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 18px;
-	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white, 0 0 1px white;
 }
 
 .tab button:hover {
 	background-color: rgb(80, 80, 80);
-	padding: 20px 30px;
+	padding: 16px 80px;
 	font-size: 18px;
-	border: 1px solid rgb(207, 207, 207);
-	border-radius: 5%;
+	/*border: 1px solid rgb(207, 207, 207);
+	border-radius: 5%;*/
 	margin-left: auto;
 	margin-right: auto;
 }
