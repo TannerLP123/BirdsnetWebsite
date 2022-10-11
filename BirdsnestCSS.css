@@ -14,7 +14,7 @@ body {
 .franchising {
 	background-color: black;
 	border-radius: 5%;
-	max-width: 320px;
+	max-width: 280px;
 	margin-left: auto;
 	margin-right: auto;
 	border: 1px solid white;
@@ -42,7 +42,7 @@ body {
 	color: white;	
 }
 
-#location {
+#Location {
 	text-align: center;
 	text-decoration-line: underline;
 	font-size: 26px;
@@ -63,7 +63,7 @@ body {
 	font-size: 20px;
 }
 
-#Location {
+.location {
 	text-align: center;
 	border: 2px solid;
 	float: right;
@@ -108,6 +108,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 18px;
+	width: 310px;
 }
 
 .tab button:hover {
