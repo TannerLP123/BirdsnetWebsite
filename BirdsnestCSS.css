@@ -42,10 +42,21 @@ body {
 	color: white;	
 }
 
-#Location {
+.location {
 	text-align: center;
-	text-decoration-line: underline;
-	font-size: 26px;
+	border: 2px solid;
+	float: right;
+	padding-right: 10px;
+	padding-bottom: 40px;
+	padding-left: 12px;
+	border-radius: 25px;
+	max-width: fit-content;
+	max-height: fit-content;
+	min-width: 15%;
+	min-height: fit-content;
+	margin-top: 30px;
+	font-size: 22px;
+	font-weight: bold;
 }
 
 #HoursOfOp {
@@ -63,21 +74,10 @@ body {
 	font-size: 20px;
 }
 
-.location {
+#Location {
 	text-align: center;
-	border: 2px solid;
-	float: right;
-	padding-right: 10px;
-	padding-bottom: 40px;
-	padding-left: 12px;
-	border-radius: 25px;
-	max-width: fit-content;
-	max-height: fit-content;
-	min-width: 15%;
-	min-height: fit-content;
-	margin-top: 30px;
-	font-size: 22px;
-	font-weight: bold;
+	text-decoration-line: underline;
+	font-size: 26px;
 }
 
 #HoO {
@@ -130,4 +130,8 @@ body {
 
 h1 {
 	text-align: center;
+}
+
+#Blackbird {
+	float: right;
 }
