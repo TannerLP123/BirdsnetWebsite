@@ -12,34 +12,36 @@ body {
 }
 
 .franchising {
-	background-color: black;
+	background-color: white;
 	border-radius: 5%;
-	max-width: 280px;
+	width: 620px;
+	height: auto;
 	margin-left: auto;
 	margin-right: auto;
-	border: 1px solid white;
+	border: 3px solid #000000;
 	margin-bottom: 2px;
 }
 
 #Title {
-	color: white;
+	color: black;
 	display: flex;
 	justify-content: center;
 	padding-top: 10px;
-	font-size: 62px;
+	padding-right: 18px;
+	font-size: 108px;
 }
 
 #Title b {
 	color: inherit;
 	display: inherit;
 	justify-content: center;
-	font-size: 38px;
+	font-size: 78px;
 }
 
 #Slogan {
 	margin-top: 0px;
 	text-align: center;
-	color: white;	
+	color: black;	
 }
 
 .location {
@@ -132,6 +134,10 @@ h1 {
 	text-align: center;
 }
 
-#Blackbird {
-	float: right;
+logo:link {
+	color: black;
+}
+
+logo:visited {
+	color:rgb(137, 14, 159)
 }
