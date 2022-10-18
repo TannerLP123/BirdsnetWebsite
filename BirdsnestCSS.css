@@ -3,8 +3,6 @@
 #wrapper {
 	margin-left: auto;
 	margin-right: auto;
-	width: 960px;
-	height: 1000px;
 }
 
 body {
@@ -73,7 +71,7 @@ body {
 	min-width: 15%;
 	min-height: fit-content;
 	margin-top: 30px;
-	font-size: 20px;
+	font-size: 24px;
 }
 
 #Location {
@@ -83,7 +81,7 @@ body {
 }
 
 #HoO {
-	font-size: 22px;
+	font-size: 26px;
 	text-decoration-line: underline;
 	min-width: 15%;
 	text-align: center;
@@ -94,9 +92,11 @@ body {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 5px;
+	margin-top: 10px;
 	border-bottom: 2px solid;
 	border-top: 2px solid;
+	width: 1200px;
+	display: center;
 }
 
 .tab button {
@@ -104,28 +104,22 @@ body {
 	border: none;
 	outline: none;
 	cursor: pointer;
-	padding: 20px 80px;
+	/*padding: 20px 70px;*/
 	transition: .3s;
 	font-weight: bold;
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 18px;
-	width: 310px;
+	font-size: 22px;
+	width: 397.33px;
+	height: 105px;
 }
 
 .tab button:hover {
 	background-color: rgb(80, 80, 80);
-	padding: 16px 80px;
-	font-size: 18px;
+	padding: 20px 80px;
+	font-size: 22px;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-.tab content {
-	display: none;
-	padding: 6px 12px;
-	border: 1px solid gray;
-	border-top: none;
 }
 
 h1 {
@@ -140,4 +134,56 @@ h1 {
 
 #Logo:visited {
 	color:rgb(137, 14, 159)
+}
+
+#Aboutbutton {
+	position: relative;
+}
+
+
+#Aboutbutton:before {
+	content: "";
+	display: flex;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: .3;
+	background-image: url('images/aboutpic.jpg');
+	background-size: cover;
+	width: 398px;
+	height: 105px;
+}
+
+#Foodbutton {
+	position: relative;
+}
+
+#Foodbutton::before {
+	content: "";
+	display: flex;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: .3;
+	background-image: url('images/foodpic.jpg');
+	background-size: cover;
+	width: 398px;
+	height: 105px;
+}
+
+#Barbutton {
+	position: relative;
+}
+
+#Barbutton::before {
+	content: "";
+	display: flex;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: .3;
+	background-image: url('images/drinkpic.jpg');
+	background-size: cover;
+	width: 398px;
+	height: 105px;
 }
