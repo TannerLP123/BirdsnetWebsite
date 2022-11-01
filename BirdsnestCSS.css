@@ -3,6 +3,7 @@
 #wrapper {
 	margin-left: auto;
 	margin-right: auto;
+	overflow: auto;
 }
 
 body {
@@ -62,7 +63,6 @@ body {
 #HoursOfOp {
     border: 2px solid;
 	float: left;
-	text-align: center;
 	border-radius: 25px;
 	padding: 10px;
 	padding-bottom: 30px;
@@ -73,6 +73,7 @@ body {
 	min-height: fit-content;
 	margin-top: 30px;
 	font-size: 24px;
+	display: inline;
 }
 
 #Location {
@@ -148,7 +149,7 @@ h1 {
 	position: absolute;
 	left: 0;
 	top: 0;
-	opacity: .3;
+	opacity: .2;
 	background-image: url('images/aboutpic.jpg');
 	background-size: cover;
 	width: 398px;
@@ -165,7 +166,7 @@ h1 {
 	position: absolute;
 	left: 0;
 	top: 0;
-	opacity: .3;
+	opacity: .2;
 	background-image: url('images/foodpic.jpg');
 	background-size: cover;
 	width: 398px;
@@ -182,7 +183,7 @@ h1 {
 	position: absolute;
 	left: 0;
 	top: 0;
-	opacity: .3;
+	opacity: .2;
 	background-image: url('images/drinkpic.jpg');
 	background-size: cover;
 	width: 398px;
