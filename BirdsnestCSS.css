@@ -16,7 +16,7 @@ body {
 .franchising {
 	background-color: gray;
 	border-radius: 5%;
-	width: 650px;
+	width: 625px;
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
@@ -27,15 +27,15 @@ body {
 #Title {
 	color: black;
 	display: flex;
-	justify-content: center;
 	padding-top: 18px;
 	font-size: 108px;
+	margin-left: 20px;
 }
 
 #Title b {
 	color: inherit;
 	display: inherit;
-	justify-content: center;
+	/*justify-content: center;*/
 	font-size: 78px;
 }
 
