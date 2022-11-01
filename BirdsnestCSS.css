@@ -1,18 +1,16 @@
 @charset "UTF-8";
 
-html {
-	background-image: url("images/BNLogoBG.png");
-}
-
 #wrapper {
 	margin-left: auto;
 	margin-right: auto;
 	overflow: auto;
+	
 }
 
 body {
-	background-color: #808080;
-	background-image: url("images/BNLogoBG.png")
+	/*sage green hex code: #B2AC88*/
+	background-color: gray;
+	background-image: url("images/BNLogoBG.png");
 }
 
 .franchising {
@@ -60,11 +58,13 @@ body {
 	min-width: 15%;
 	min-height: fit-content;
 	margin-top: 30px;
+	margin-right: 50px;
+	margin-left: 30px;
 	font-size: 22px;
 	font-weight: bold;
 }
 
-#HoursOfOp {
+.hoursOfOp {
     border: 2px solid;
 	float: left;
 	border-radius: 25px;
@@ -76,8 +76,33 @@ body {
 	min-width: 15%;
 	min-height: fit-content;
 	margin-top: 30px;
+	margin-left: 50px;
 	font-size: 24px;
 	display: inline;
+	margin-right: 30px;
+}
+
+.aboutState {
+	border: 2px solid;
+	float: none;
+	display: inline-block;
+	border-radius: 25px;
+	padding: 10px;
+	padding-bottom: 30px;
+	padding-left: 15px;
+	margin: 30px;
+	margin-left: 55px;
+	font-size: 24px;
+	max-width: 985px;
+	max-height: fit-content;
+	min-width: 15%;
+	min-height: fit-content;
+}
+
+#AboutState {
+	text-decoration-line: underline;
+	font-size: 26px;
+	font-weight: bold;
 }
 
 #Location {
