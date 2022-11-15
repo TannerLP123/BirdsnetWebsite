@@ -21,6 +21,7 @@ body {
 	margin-right: auto;
 	border: 3px solid #000000;
 	margin-bottom: 2px;
+	margin-top: 20px;
 }
 
 #Title {
@@ -29,12 +30,14 @@ body {
 	padding-top: 18px;
 	font-size: 108px;
 	justify-content: center;
+	font-weight: bold;
 }
 
 #Title b {
 	color: inherit;
 	display: inherit;
 	font-size: 78px;
+	padding-top: 10px;
 }
 
 #Slogan {
@@ -140,7 +143,7 @@ ul {
 	height: 90px;
 }
 
-#tab button {
+.btn {
 	background-color: inherit;
 	border: none;
 	outline: none;
@@ -151,14 +154,14 @@ ul {
 	margin-right: auto;
 	font-size: 22px;
 	width: 395px;
-	height: 105px;
 }
 
-#Tab button {
+.btn:hover {
 	background-color: rgb(80, 80, 80);
 	font-size: 22px;
 	margin-left: auto;
 	margin-right: auto;
+	text-decoration-color: blue;
 }
 
 h1 {
@@ -180,11 +183,7 @@ h1 {
 	height: 100%;
 }
 
-.btn {
-	width: 300px;
-}
-
-#Aboutbutton:before {
+#Aboutbutton::before {
 	content: "";
 	display: flex;
 	position: absolute;
@@ -221,7 +220,7 @@ h1 {
 	height: 100%;
 }
 
-#Foodbutton:before {
+#Foodbutton::before {
 	content: "";
 	display: flex;
 	position: absolute;
@@ -237,7 +236,7 @@ h1 {
 	height: 100%;
 }
 
-#Barbutton:before {
+#Barbutton::before {
 	content: "";
 	display: flex;
 	position: absolute;
