@@ -4,7 +4,6 @@
 	margin-left: auto;
 	margin-right: auto;
 	overflow: auto;
-	
 }
 
 body {
@@ -70,7 +69,7 @@ body {
 	border-radius: 25px;
 	padding: 10px;
 	padding-bottom: 30px;
-	padding-left: 15px;
+	padding-right: 25px;
 	max-width: fit-content;
 	max-height: fit-content;
 	min-width: 15%;
@@ -80,6 +79,10 @@ body {
 	font-size: 24px;
 	display: inline;
 	margin-right: 30px;
+}
+
+ul {
+	list-style: none;
 }
 
 .aboutState {
@@ -118,7 +121,14 @@ body {
 	text-align: center;
 }
 
-.tab {
+#KitchHours {
+	font-size: 24px;
+	font-weight: bold;
+	min-width: 15%;
+	text-align: center;
+}
+
+#Tab {
 	background-color: grey;
 	text-align: center;
 	margin-left: auto;
@@ -128,24 +138,24 @@ body {
 	border-top: 2px solid;
 	width: 1200px;
 	display: center;
+	height: 50px;
 }
 
-.tab button {
+#tab button {
 	background-color: inherit;
 	border: none;
 	outline: none;
 	cursor: pointer;
-	/*padding: 20px 70px;*/
 	transition: .3s;
 	font-weight: bold;
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 22px;
-	width: 397.33px;
+	width: 395px;
 	height: 105px;
 }
 
-.tab button:hover {
+#Tab button:hover {
 	background-color: rgb(80, 80, 80);
 	padding: 20px 80px;
 	font-size: 22px;
@@ -179,8 +189,7 @@ h1 {
 	left: 0;
 	top: 0;
 	opacity: .2;
-	background-image: url('images/aboutpic.jpg');
-	background-size: cover;
+	background: url('images/aboutpic.jpg');
 	width: 398px;
 	height: 105px;
 }
@@ -189,15 +198,14 @@ h1 {
 	position: relative;
 }
 
-#Foodbutton::before {
+#Foodbutton:before {
 	content: "";
 	display: flex;
 	position: absolute;
 	left: 0;
 	top: 0;
 	opacity: .2;
-	background-image: url('images/foodpic.jpg');
-	background-size: cover;
+	background: url('images/foodpic.jpg');
 	width: 398px;
 	height: 105px;
 }
@@ -206,15 +214,20 @@ h1 {
 	position: relative;
 }
 
-#Barbutton::before {
+#Barbutton:before {
 	content: "";
 	display: flex;
 	position: absolute;
 	left: 0;
 	top: 0;
 	opacity: .2;
-	background-image: url('images/drinkpic.jpg');
-	background-size: cover;
+	background: url('images/drinkpic.jpg');
 	width: 398px;
 	height: 105px;
+}
+
+.button
+{
+	width: 398px !important;
+	height: 105px !important;
 }
