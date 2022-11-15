@@ -28,13 +28,12 @@ body {
 	display: flex;
 	padding-top: 18px;
 	font-size: 108px;
-	margin-left: 20px;
+	justify-content: center;
 }
 
 #Title b {
 	color: inherit;
 	display: inherit;
-	/*justify-content: center;*/
 	font-size: 78px;
 }
 
@@ -138,7 +137,7 @@ ul {
 	border-top: 2px solid;
 	width: 1200px;
 	display: center;
-	height: 50px;
+	height: 90px;
 }
 
 #tab button {
@@ -155,9 +154,8 @@ ul {
 	height: 105px;
 }
 
-#Tab button:hover {
+#Tab button {
 	background-color: rgb(80, 80, 80);
-	padding: 20px 80px;
 	font-size: 22px;
 	margin-left: auto;
 	margin-right: auto;
@@ -179,8 +177,12 @@ h1 {
 
 #Aboutbutton {
 	position: relative;
+	height: 100%;
 }
 
+.btn {
+	width: 300px;
+}
 
 #Aboutbutton:before {
 	content: "";
@@ -189,13 +191,34 @@ h1 {
 	left: 0;
 	top: 0;
 	opacity: .2;
+	width: inherit;
+	height: inherit;
+}
+
+#aboutStyle {
 	background: url('images/aboutpic.jpg');
-	width: 398px;
-	height: 105px;
+	height: 100%;
+	width: 100%;
+	padding: 12px 0 0 0;
+}
+
+#kitchenStyle {
+	background: url('images/foodpic.jpg');
+	height: 100%;
+	width: 100%;
+	padding: 12px 0 0 0;
+}
+
+#barStyle {
+	background: url('images/drinkpic.jpg');
+	height: 100%;
+	width: 100%;
+	padding: 12px 0 0 0;
 }
 
 #Foodbutton {
 	position: relative;
+	height: 100%;
 }
 
 #Foodbutton:before {
@@ -205,13 +228,13 @@ h1 {
 	left: 0;
 	top: 0;
 	opacity: .2;
-	background: url('images/foodpic.jpg');
-	width: 398px;
-	height: 105px;
+	width: inherit;
+	height: inherit;
 }
 
 #Barbutton {
 	position: relative;
+	height: 100%;
 }
 
 #Barbutton:before {
@@ -221,13 +244,6 @@ h1 {
 	left: 0;
 	top: 0;
 	opacity: .2;
-	background: url('images/drinkpic.jpg');
-	width: 398px;
-	height: 105px;
-}
-
-.button
-{
-	width: 398px !important;
-	height: 105px !important;
+	width: inherit;
+	height: inherit;
 }
