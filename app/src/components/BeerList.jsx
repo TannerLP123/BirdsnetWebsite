@@ -2,7 +2,7 @@ import React from 'react'
 
 const BeerList = () => {
   return (
-    <h1>beerList</h1>
+    <h1>Beer List</h1>
   )
 }
 
