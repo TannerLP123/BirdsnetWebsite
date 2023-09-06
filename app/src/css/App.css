@@ -1,3 +1,15 @@
+:root{
+  --tan: #F4E0B9;
+  --clay: #A8A196;
+  --light-brown: #7D7463;
+  --midblue: #176B87;
+
+  --dark: #2C3639;
+  --mid: #3F4E4F;
+  --brick: #A27B5C;
+  --sand: #DCD7C9;
+}
+
 .App {
   text-align: center;
 }

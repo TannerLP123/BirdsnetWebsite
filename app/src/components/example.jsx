@@ -4,8 +4,9 @@ import BeerList from './BeerList'
 
 const Main = () => {
   const [toggle, setToggle] = useState(false)
-
+  
   function userClick(){
+
     console.log("toggled")
     setToggle(current => !current)
   }
