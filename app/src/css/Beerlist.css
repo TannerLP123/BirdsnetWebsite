@@ -1,9 +1,10 @@
-h1 {
+h1 .beerList{
     line-height: 3rem;
     font-weight: 700;
     font-size: 38px;
     letter-spacing: 2px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
 }
 
 ul {
@@ -11,8 +12,10 @@ ul {
     padding: 5px 0;
     font-size: 2rem;
     font-weight: 600;
+    color: #fff;
 }
 
 li {
     font-size: 1rem;
+    color: #fff;
 }

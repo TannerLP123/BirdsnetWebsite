@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import "../css/Beerlist.css";
 
 const BeerList = () => {
   return (
     <>
-      <h1>Pick Your Beer Here:</h1>
-      <img src = ""/>
-      <ul>Domestics:
+      <h1 class = "beerList">Pick Your Beer Here:</h1>
+      <img class = "beerListImg" src = ""/>
+      <ul class = "domestics">Domestics:
         <li>mikey with a lime</li>
         <li>Budweiser</li>
         <li>Bud Light</li>
