@@ -1,16 +1,24 @@
+import { useState } from 'react'
 import './css/App.css';
 import Home from './components/Home';
-import Example from './components/example';
-import Header from './components/Header'
+import Menu from './components/Menu'
+import Header from './components/Header';
 
-function App() {
+
+function App(){
+
+  const [toggle, setToggle] = useState(false)
+
+  function userClick(){
+    console.log("toggled")
+    setToggle(current => !current)
+  }
+
   return (
     <div className="App">
-      <Header />
-      <header className="App-header">
-        <Home />
-        <Example />
-      </header>
+      <Header/>
+      <button onClick={userClick} >switch</button>
+      {toggle?<Home />:<Menu />}
     </div>
   );
 }

@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Home = () => {
+const Home=()=>{
   return (
-    <div>OOGA Home</div>
+    <div>Home</div>
   )
 }
 
