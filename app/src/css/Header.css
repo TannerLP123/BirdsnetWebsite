@@ -1,6 +1,6 @@
 .Header{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 60px;
   background-color: var(--midblue);
@@ -8,4 +8,5 @@
 
 .Title, .MenuBtn{
   color: aliceblue;
+  margin: 0 16px;
 }
