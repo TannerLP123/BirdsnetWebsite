@@ -1,7 +1,7 @@
 # Technologies
 
 ## Front end:
-TypeScript
+JavaScript
 React
 TailwindCSS
 HTML
