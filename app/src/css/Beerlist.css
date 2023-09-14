@@ -1,18 +1,41 @@
-h1 {
+h1 .beerList{
     line-height: 3rem;
     font-weight: 700;
     font-size: 38px;
     letter-spacing: 2px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
 }
 
-ul {
+.beerContainer {
+    margin: auto;
+    width: 800px;
+    overflow: auto;
+}
+
+.beerContainer .domestics {
     list-style: none;
-    padding: 5px 0;
     font-size: 2rem;
     font-weight: 600;
+    position: relative;
+    color: var(--dark);
+    float: left;
+    border: 2px solid var(--midblue);
+    border-radius: 8px;
+    padding: 1rem;
+    background: var(--sand);
+    font-weight: 600;
+    box-shadow: 5px 5px 5px #0000005a;
 }
 
-li {
+/*work on finishing the styling for Locals*/
+.beerContainer .locals {
+
+}
+
+.domestics li{
+    margin-top: 10px;
+    line-height: .9rem;
     font-size: 1rem;
+    color: var(--mid);
 }
