@@ -7,15 +7,35 @@ h1 .beerList{
     color: #fff;
 }
 
-ul {
-    list-style: none;
-    padding: 5px 0;
-    font-size: 2rem;
-    font-weight: 600;
-    color: #fff;
+.beerContainer {
+    margin: auto;
+    width: 800px;
+    overflow: auto;
 }
 
-li {
+.beerContainer .domestics {
+    list-style: none;
+    font-size: 2rem;
+    font-weight: 600;
+    position: relative;
+    color: var(--dark);
+    float: left;
+    border: 2px solid var(--midblue);
+    border-radius: 8px;
+    padding: 1rem;
+    background: var(--sand);
+    font-weight: 600;
+    box-shadow: 5px 5px 5px #0000005a;
+}
+
+/*work on finishing the styling for Locals*/
+.beerContainer .locals {
+
+}
+
+.domestics li{
+    margin-top: 10px;
+    line-height: .9rem;
     font-size: 1rem;
-    color: #fff;
+    color: var(--mid);
 }
