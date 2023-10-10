@@ -28,11 +28,6 @@ h1 .beerList{
     box-shadow: 5px 5px 5px #0000005a;
 }
 
-/*work on finishing the styling for Locals*/
-.beerContainer .locals {
-
-}
-
 .domestics li{
     margin-top: 10px;
     line-height: .9rem;
