@@ -39,7 +39,7 @@ class BeerList extends Component {
 
     let localBrewMap = localBreweries.map((locals) => {
       return(
-        <div key = {locals.id}>
+        <div className = "localsListMap" key = {locals.id}>
           <h2>{locals.nameOfBrewery}</h2>
           <h4>{locals.city}, {locals.state}</h4>
         </div>
@@ -49,7 +49,7 @@ class BeerList extends Component {
     return (
       <div className="beer-list">
       <h1 className = "beerList">Pick Your Beer Here:</h1>
-      <img className = "beerListImg" src = "" alt = "A delicous looking beer" title = "a picture of a beer"/>
+      <img className = "beerListImg" src = "" alt = "A delicious looking beer" title = "a picture of a beer"/>
         <div className = "beerContainer">
           <ul className = "domestics">Domestics:
             <li>Michelob Ultra</li>
@@ -65,7 +65,7 @@ class BeerList extends Component {
             <li>Pabst Blue Ribbon</li>
           </ul>
 
-          <div className = "LocalsList">
+          <div className = "localsList">
             {localBrewMap}
           </div>
         </div>
