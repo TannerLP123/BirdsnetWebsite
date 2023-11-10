@@ -1,25 +1,23 @@
-import { useState } from 'react'
 import './css/App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
-import Menu from './components/Menu';
 import Header from './components/Header';
+import BeerList from './components/BeerList';
+import Cocktails from './components/Cocktails';
+import Food from './components/Food';
 
-
-function App(){
-
-  const [toggle, setToggle] = useState(false);
-
-  function userClick(){
-    console.log("toggled");
-    setToggle(current => !current);
-  }
-
+function App() {
   return (
-    <div className="App">
-      <Header/>
-      {toggle?<button onClick={userClick} >Home Page</button>:<button onClick={userClick}>View the Menu</button>}
-      {toggle?<Menu />:<Home />}
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path = "/" element = {<Header />} >
+          <Route index element = {<Home />} />
+          <Route path = "food" element = {<Food />} />
+          <Route path = "beer" element = {<BeerList />} />
+          <Route path = "ctails" element = {<Cocktails />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

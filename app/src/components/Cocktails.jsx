@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const Cocktails = () => {
+const Cocktails = () => {
   return (
     <div>Cocktails</div>
   )
 }
+
+export default Cocktails;
