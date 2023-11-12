@@ -1,5 +1,4 @@
-.Header{
-  display: flex;
+.Header {
   justify-content: space-between;
   align-items: center;
   height: 60px;
@@ -9,4 +8,33 @@
 .Title, .MenuBtn{
   color: aliceblue;
   margin: 0 16px;
+}
+
+.Header ul {
+  list-style: none;
+  padding: 0;
+  line-height: 1.5rem;
+  float: right;
+  padding-right: -50px;
+}
+
+.Header li {
+  padding: 0 20px 20px 20px;
+  float: right;
+  font-size: 2rem;
+}
+
+.Header a {
+  font-weight: 600;
+  color: var(--sand);
+  text-decoration: none;
+}
+
+.Header a:hover {
+  border-bottom: 3px solid var(--tan);
+  transition: .3s;
+}
+
+#homeBtn a.active {
+  border-bottom: 3px solid var(--tan);
 }

@@ -1,23 +1,23 @@
 import React from 'react';
-import { Outlet, Link } from 'react-router-dom';
+import { Outlet, NavLink } from 'react-router-dom';
 import '../css/Header.css';
 
 const Header = () => {
   return (
-    <div className='Header'>
-      <nav>
+    <div>
+      <nav className = 'Header'>
         <ul>
-        <li className = ''>
-            <Link to = '/'>Home</Link>
+        <li id = 'homeBtn'>
+            <NavLink to = '/'>Home</NavLink>       
+        </li>
+        <li id = 'foodBtn'>
+            <NavLink to = '/food'>Food</NavLink>
           </li>
-          <li className = ''>
-            <Link to = '/food'>Food</Link>
+          <li id = 'beerBtn'>
+            <NavLink to = '/beer'>Beer</NavLink>
           </li>
-          <li className = ''>
-            <Link to = '/beer'>Beer</Link>
-          </li>
-          <li className=''>
-            <Link to = '/ctails'>Cocktails</Link>
+          <li id = 'ctailsBtn'>
+            <NavLink to = '/ctails'>Cocktails</NavLink>
           </li>
         </ul>
       </nav>
